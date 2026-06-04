@@ -1,5 +1,6 @@
 FROM python:3.10-slim
 ENV PYTHONUNBUFFERED=1
+ENV PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
 WORKDIR /app
 
 # ∞≤◊∞flask“¿¿µ
