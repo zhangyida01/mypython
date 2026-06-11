@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello from Flask33! Jenkins PipelineÉ¶µØ·½Èö + Harbor is working."
+    return "Hello from Flask33! Jenkins Pipeline6666+ Harbor is working."
 
 @app.route('/health')
 def health():
